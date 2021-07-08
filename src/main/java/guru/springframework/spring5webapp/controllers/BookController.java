@@ -14,6 +14,8 @@ public class BookController {
         this.bookRepository = bookRepository;
     }
 
+    //new books model and the books attribute
+    //view part is in list.html
     @RequestMapping("/books")
     public String getBooks(Model model) {
 
